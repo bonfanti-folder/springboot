@@ -1,0 +1,3 @@
+Rest controllers
+Security (JWT, oauth)
+Spring data repository
