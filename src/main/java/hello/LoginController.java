@@ -8,10 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/login")
 public class LoginController {
 
-        @RequestMapping(method = RequestMethod.POST)
+        @PostMapping("/login")
         public ResponseEntity<?> login(@RequestBody Login input) {
             if (input.getId().equals(1234) && input.getPassword().equals("1234")) {
                 return ResponseEntity.noContent().header("bearer", "nqghr23iotg8290hi").build();
