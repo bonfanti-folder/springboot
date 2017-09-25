@@ -1,4 +1,4 @@
-package hello;
+package login;
 
 public class Login {
 
@@ -10,7 +10,7 @@ public class Login {
     private String token;
     private String email;
     private String type;
-    private Roles[] roles;
+    private Rol[] roles;
 
     public Login() {
 
@@ -48,7 +48,7 @@ public class Login {
         this.type = type;
     }
 
-    public void setRoles(Roles[] roles) {
+    public void setRoles(Rol[] roles) {
         this.roles = roles;
     }
 
@@ -84,7 +84,7 @@ public class Login {
         return type;
     }
 
-    public Roles[] getRoles() {
+    public Rol[] getRoles() {
         return roles;
     }
 }

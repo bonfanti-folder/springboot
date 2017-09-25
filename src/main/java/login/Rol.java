@@ -1,10 +1,10 @@
-package hello;
+package login;
 
-public class Roles {
+public class Rol {
     private Number id;
     private String authority;
 
-    public Roles(Number id, String authority) {
+    public Rol(Number id, String authority) {
         this.id = id;
         this.authority = authority;
     }
